@@ -1,0 +1,70 @@
+import Link from "./Link";
+
+const navData = [
+    {
+        id: 1,
+        name: "Home",
+        path: "/"
+    },
+    {
+        id: 2,
+        name: "About",
+        path: "/about"
+    },
+    {
+        id: 3,
+        name: "Services",
+        path: "/services"
+    },
+    {
+        id: 4,
+        name: "Blog",
+        path: "/blog"
+    },
+    {
+        id: 5,
+        name: "Contact",
+        path: "/contact"
+    }
+];
+
+
+
+
+
+const NabBar = () => {
+    return (
+        <nav>
+            <ul className="flex">
+                {
+                    navData.map(route => <Link key={route.id} route={route}></Link>)
+                }
+            </ul>
+
+
+
+
+
+            {/* 
+            <ul className="flex">
+                {
+                    navData.map(route => <li className='mr-10'>
+                        <a href={route.path}> {route.name}</a></li>
+                    )
+
+                }
+
+            </ul>
+             */}
+
+            {/* <ul className='flex'>
+                <li className='mr-10'><a href="/home"> Home</a></li>
+                <li className='mr-10'><a href="/about"> About</a></li>
+                <li className='mr-10'><a href="/blogs"> Blogs</a></li>
+            </ul> */}
+
+        </nav>
+    );
+};
+
+export default NabBar;
