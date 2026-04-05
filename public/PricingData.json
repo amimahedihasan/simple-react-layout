@@ -13,8 +13,8 @@
         "1 free training session",
         "Basic fitness assessment",
         "Water facility",
-        "Mobile app access",
-        "Attendance tracking"
+        "Mobile app access"
+  
       ],
       "isPopular": false
     },
@@ -30,10 +30,8 @@
         "Diet plan guidance",
         "Group classes (Yoga, Cardio, Zumba)",
         "Monthly fitness assessment",
-        "Body composition analysis",
-        "Priority locker access",
-        "Supplement consultation",
-        "Access to fitness workshops"
+        "Body composition analysis"
+     
       ],
       "isPopular": true
     },
@@ -51,10 +49,8 @@
         "Steam & sauna",
         "Massage & recovery sessions",
         "Dedicated support manager",
-        "VIP locker & towel service",
-        "Free gym merchandise",
-        "Guest pass (2 per month)",
-        "Priority customer support"
+        "VIP locker & towel service"
+  
       ],
       "isPopular": false
     }
