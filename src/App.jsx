@@ -17,9 +17,9 @@ function App() {
   return (
     <>
       <header>
-
-        <NabBar></NabBar>
-        {/* <DaisyNav></DaisyNav> */}
+{/* 
+        <NabBar></NabBar> */}
+        <DaisyNav></DaisyNav>
 
         <main>
 

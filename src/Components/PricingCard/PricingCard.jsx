@@ -17,7 +17,7 @@ const PricingCard = ({ pricing }) => {
                 {
                     features.map((feature, index) => <PricingFeature key={index} feature={feature}></PricingFeature>)
                 }
-                <button className="btn mt-2 w-full">Subcribe</button>
+                <button className="btn w-full">Subcribe</button>
 
 
             </div>

@@ -75,7 +75,7 @@ const resultData = [
 
 const ResutltCharts = () => {
     return (
-        <div>
+        <div className='mt-15 mb-15'>
             <LineChart width={800} height={500} data={resultData}>
                 <XAxis dataKey={'name'}></XAxis>
                 <YAxis dataKey={'math'}></YAxis>
