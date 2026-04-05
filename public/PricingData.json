@@ -1,0 +1,62 @@
+{
+  "memberships": [
+    {
+      "id": 1,
+      "name": "Basic Plan",
+      "price": 1000,
+      "duration": "per month",
+      "description": "Basic gym access with essential facilities and limited training support.",
+      "features": [
+        "Access to gym equipment",
+        "Locker facility",
+        "Open gym access (6am - 10pm)",
+        "1 free training session",
+        "Basic fitness assessment",
+        "Water facility",
+        "Mobile app access",
+        "Attendance tracking"
+      ],
+      "isPopular": false
+    },
+    {
+      "id": 2,
+      "name": "Standard Plan",
+      "price": 2000,
+      "duration": "per month",
+      "description": "Balanced plan with personal training, group classes, and fitness guidance.",
+      "features": [
+        "All Basic features",
+        "Personal trainer (2 days/week)",
+        "Diet plan guidance",
+        "Group classes (Yoga, Cardio, Zumba)",
+        "Monthly fitness assessment",
+        "Body composition analysis",
+        "Priority locker access",
+        "Supplement consultation",
+        "Access to fitness workshops"
+      ],
+      "isPopular": true
+    },
+    {
+      "id": 3,
+      "name": "Premium Plan",
+      "price": 3500,
+      "duration": "per month",
+      "description": "Full premium experience with daily training, recovery, and VIP services.",
+      "features": [
+        "All Standard features",
+        "Personal trainer (daily)",
+        "Custom diet & nutrition plan",
+        "24/7 gym access",
+        "Steam & sauna",
+        "Massage & recovery sessions",
+        "Dedicated support manager",
+        "VIP locker & towel service",
+        "Free gym merchandise",
+        "Guest pass (2 per month)",
+        "Priority customer support"
+      ],
+      "isPopular": false
+    }
+  ]
+}
